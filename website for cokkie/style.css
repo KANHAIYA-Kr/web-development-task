@@ -6,10 +6,12 @@
     border: 1px solid white;
     height: 500px;
     margin: 50px;
+    width: auto;
 }
 .navbar{
     border: 2px solid white;
     height: 45px;
+    width: auto;
     border-radius: 25px;
     color: white;
     background-color: #5f021f;
@@ -31,6 +33,7 @@
 }
 .contant{
     height: 405px;
+    width: auto;
     border: 1px solid white;
     margin-top: 05px;
     border-radius: 25px;
@@ -81,6 +84,7 @@ h1{
 .comment{
     border: 1px solid white;
     height: 850px;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     margin-top: 45px;
