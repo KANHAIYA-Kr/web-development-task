@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    border: 1px solid white;
+    height: 500px;
+    margin: 50px;
+}
+.navbar{
+    border: 2px solid white;
+    height: 45px;
+    border-radius: 25px;
+    color: white;
+    background-color: #5f021f;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.navbar ul{
+    display: flex;
+    margin: 15px;
+    position: absolute;
+    
+    list-style-type: none;
+    gap: 10px;
+}
+.name{
+    text-align: center;
+    position: absolute;
+    left: 400%;
+}
+.contant{
+    height: 405px;
+    border: 1px solid white;
+    margin-top: 05px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    
+}
+.bg {
+    background-image: url(https://s0.wp.com/wp-content/themes/pub/batch/assets/images/hero_img.jpeg);
+    background-size: cover; 
+    border-radius: 25px;
+    
+    /* background-position:;   */
+    background-repeat: repeat-x;
+
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background-position: center;
+
+    
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 85px ;
+    box-shadow: 10px 10px 90px black;
+    
+}
+.main{
+    background-color: rgb(243, 209, 214);
+    
+}
+.contant ul{
+    display: flex;
+    list-style-type: disc;
+    gap: 105px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin-top: 15px;
+}
+.comment{
+    border: 1px solid white;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+
+}
+img{
+    box-shadow: 10px 10px 87px black;
+
+}
+.comment2{
+    display: flex;
+    gap: 350px;
+    margin: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.tittle h2{
+    align-items: center;
+    text-align: center;
+    color: #5f021f;
+
+}
+.comment2 h2{
+    color: #5f021f;
+    font-size: 30px;
+}
+.order{
+    display: flex;
+    gap: 350px;
+    
+    margin: 30px;
+}
+.order h3{
+    border: 2px solid #5f021f;
+    border-radius: 30px;
+    padding: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow: 10px 10px 10px #5f021f;
+    }
+.order h3:hover{
+    opacity: 0.75;
+    width: 95px;
+    
+}
+.commentmain{
+    height: 150px;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 80px;
+    border: 2px solid black;
+    border-radius: 25px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #5f021f;
+    color: white;
+    
+}
+.commentmain h3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
