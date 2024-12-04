@@ -22,6 +22,7 @@
     display: flex;
     margin: 15px;
     position: absolute;
+   
     
     list-style-type: none;
     gap: 10px;
@@ -131,6 +132,7 @@ img{
 .order h3:hover{
     opacity: 0.75;
     width: 95px;
+    cursor: pointer;
     
 }
 .commentmain{
@@ -153,4 +155,7 @@ img{
     align-items: center;
     margin-top: 35px;
 
+}
+.navbar ul:hover{
+    cursor: pointer;
 }
