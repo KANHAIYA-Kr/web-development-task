@@ -94,8 +94,12 @@ h1{
     
 
 }
+img:hover{
+    box-shadow: 10px 10px 87px blue;
+}
 img{
     box-shadow: 10px 10px 87px black;
+    
 
 }
 .comment2{
@@ -131,8 +135,9 @@ img{
     }
 .order h3:hover{
     opacity: 0.75;
-    width: 95px;
+    width: 45px;
     cursor: pointer;
+    background-color: pink;
     
 }
 .commentmain{
